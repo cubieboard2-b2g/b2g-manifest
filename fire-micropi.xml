@@ -10,9 +10,9 @@
   <default revision="refs/tags/android-4.2.2_r1" remote="aosp" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">
+  <!--project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">
     <copyfile src="core/root.mk" dest="Makefile"/>
-  </project>
+  </project-->
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="mozillaorg" revision="a0d541d8c5ab93fe655201820ad5fad7558a9cdd" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="b4fae5d56f365139b983029f26dc94bb66766ba1" />
@@ -137,6 +137,9 @@
   <project remote="fire_repo" revision="master" path="external/tinyalsa" name="a20-b2g-external-tinyalsa"/>
   <project remote="fire_repo" revision="master" path="linaro_toolchain" name="a20-b2g-linaro-toolchain"/>
   <project remote="fire_repo" revision="master" path="patches" name="a20-b2g-patches"/>
+  <project remote="fire_repo" revision="micropi" path="build" name="a20-b2g-build">
+    <copyfile src="core/root.mk" dest="Makefile"/>
+  </project>
 
   <!-- at present , I don't know how to use below uboot instead of prebuilt uboot-->
   <!--project remote="fire_repo" revision="master" path="u-boot" name="a20-b2g-uboot"/-->
