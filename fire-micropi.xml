@@ -6,8 +6,9 @@
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
   <remote name="fire_repo" fetch="https://github.com/micropi/" />
+  <remote name="caf" fetch="git://codeaurora.org/" />
 
-  <default revision="refs/tags/android-4.2.2_r1" remote="aosp" sync-j="4"/>
+  <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <!--project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">
@@ -63,7 +64,8 @@
   <project path="external/giflib" name="platform/external/giflib"/>
   <project path="external/gtest" name="platform/external/gtest"/>
   <project path="external/harfbuzz" name="platform/external/harfbuzz"/>
-  <project path="external/icu4c" name="platform/external/icu4c"/>
+  <!-- Something wrong in caf icu4c.git: refs/tags/android-4.2.2_r1 is lost. Use a equivalent tag -->
+  <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/AU_LINUX_ANDROID_JB_VANILLA.04.02.00.60.014"/>
   <project path="external/iproute2" name="platform/external/iproute2"/>
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools"/>
   <project path="external/iptables" name="platform/external/iptables"/>
