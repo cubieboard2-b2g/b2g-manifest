@@ -97,11 +97,11 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
 
 
-    <project remote="cb2" revision="cb2" path="kernel" name="a20-b2g-kernel"/>
-      <project remote="cb2" revision="master" path="frameworks/base" name="a20-b2g-frameworks-base"/>
-        <project remote="cb2" revision="master" path="frameworks/av" name="a20-b2g-frameworks-av"/>
-    <project remote="cb2" revision="master" path="external/ppp" name="a20-b2g-external-ppp"/>
-      <project remote="cb2" revision="master" path="frameworks/wilhelm" name="a20-b2g-frameworks-wilhelm"/>
-        <project remote="cb2" revision="master" path="external/tinyalsa" name="a20-b2g-external-tinyalsa"/>
-          <project remote="cb2" revision="master" path="linaro_toolchain" name="a20-b2g-linaro-toolchain"/>
-      <project remote="cb2" revision="master" path="hardware" name="a20-b2g-hardware"/>
+  <project remote="cb2" revision="cb2" path="kernel" name="a20-b2g-kernel"/>
+  <project remote="cb2" revision="master" path="frameworks/base" name="a20-b2g-frameworks-base"/>
+  <project remote="cb2" revision="master" path="frameworks/av" name="a20-b2g-frameworks-av"/>
+  <project remote="cb2" revision="master" path="external/ppp" name="a20-b2g-external-ppp"/>
+  <project remote="cb2" revision="master" path="frameworks/wilhelm" name="a20-b2g-frameworks-wilhelm"/>
+  <project remote="cb2" revision="master" path="external/tinyalsa" name="a20-b2g-external-tinyalsa"/>
+  <project remote="cb2" revision="master" path="linaro_toolchain" name="a20-b2g-linaro-toolchain"/>
+  <project remote="cb2" revision="master" path="hardware" name="a20-b2g-hardware"/>
