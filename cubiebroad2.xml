@@ -31,8 +31,8 @@
   <!-- cubiebroad2 special things -->
 <!-- <project remote="cb2" revision="cb2" path="kernel" name="a20-b2g-kernel"/> -->
   <project remote="cb2" revision="cb2" path="device/softwinner" name="a20-b2g-device-softwinner"/>
-  <project remote="cb2" revision="cb2" path="frameworks/native" name="a20-b2g-frameworks-native"/>
-  <project remote="cb2" revision="cb2" path="lichee_tools" name="a20-b2g-lichee-tools"/>
+<!--   <project remote="cb2" revision="cb2" path="frameworks/native" name="a20-b2g-frameworks-native"/> -->
+<!--   <project remote="cb2" revision="cb2" path="lichee_tools" name="a20-b2g-lichee-tools"/> -->
 <!--   <project remote="cb2" revision="master" path="frameworks/base" name="a20-b2g-frameworks-base"/> -->
 <!--   <project remote="cb2" revision="master" path="frameworks/av" name="a20-b2g-frameworks-av"/> -->
 <!--   <project remote="cb2" revision="master" path="frameworks/opt" name="a20-b2g-frameworks-opt"/> -->
