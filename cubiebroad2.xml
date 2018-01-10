@@ -1,10 +1,13 @@
 <?xml version="1.0" ?>
 <manifest>
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
   <remote name="b2g" fetch="git://github.com/mozilla-b2g/" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
   <remote name="cb2" fetch="https://github.com/cubiebroad2-b2g/" />
-
+  
+  <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="4"/>
+  
   <!-- Gonk specific things and forks -->
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="mozillaorg" revision="a0d541d8c5ab93fe655201820ad5fad7558a9cdd" />
@@ -18,7 +21,8 @@
   <project path="system/bluetoothd" name="platform_system_bluetoothd" remote="b2g" revision="master"/>
   <project path="system/libfdio" name="platform_system_libfdio" remote="b2g" revision="master"/>
 
-
+  <!-- Stock Android things -->
+  <project path="external/jack" name="platform/external/jack"/>
 
   <!-- cubiebroad2 special things -->
 <!-- <project remote="cb2" revision="cb2" path="kernel" name="a20-b2g-kernel"/> -->
@@ -32,7 +36,7 @@
 <!--   <project remote="cb2" revision="master" path="hardware" name="a20-b2g-hardware"/> -->
 <!--   <project remote="cb2" revision="master" path="external/ppp" name="a20-b2g-external-ppp"/> -->
 <!--   <project remote="cb2" revision="master" path="external/tinyalsa" name="a20-b2g-external-tinyalsa"/> -->
-<!--   <project remote="cb2" revision="master" path="linaro_toolchain" name="a20-b2g-linaro-toolchain"/> -->
+<!--  <project remote="cb2" revision="master" path="linaro_toolchain" name="a20-b2g-linaro-toolchain"/> -->
   <project remote="cb2" revision="master" path="patches" name="a20-b2g-patches"/>
   <project remote="cb2" revision="cb2" path="system/core" name="cubiebroad2-b2g-system-core"/>
   <project remote="cb2" revision="cb2" path="build" name="cubiebroad2-b2g-build">
