@@ -1,19 +1,11 @@
 <?xml version="1.0" ?>
 <manifest>
-<!-- using tqingua git -->
-  <remote name="aosp" fetch="https://aosp.tuna.tsinghua.edu.cn" />
   <remote name="b2g" fetch="git://github.com/mozilla-b2g/" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
   <remote name="cb2" fetch="https://github.com/cubiebroad2-b2g/" />
-  <remote name="caf" fetch="git://codeaurora.org/" />
-
-  <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="3"/>
 
   <!-- Gonk specific things and forks -->
-  <!--project path="build" name="platform_build" remote="b2g" revision="b2g-4.2.2_r1">
-    <copyfile src="core/root.mk" dest="Makefile"/>
-  </project-->
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="mozillaorg" revision="a0d541d8c5ab93fe655201820ad5fad7558a9cdd" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="b4fae5d56f365139b983029f26dc94bb66766ba1" />
@@ -30,7 +22,7 @@
 
   <!-- cubiebroad2 special things -->
 <!-- <project remote="cb2" revision="cb2" path="kernel" name="a20-b2g-kernel"/> -->
-  <project remote="cb2" revision="cb2" path="device/softwinner" name="a20-b2g-device-softwinner"/>
+<!--  <project remote="cb2" revision="cb2" path="device/softwinner" name="a20-b2g-device-softwinner"/> -->
 <!--   <project remote="cb2" revision="cb2" path="frameworks/native" name="a20-b2g-frameworks-native"/> -->
 <!--   <project remote="cb2" revision="cb2" path="lichee_tools" name="a20-b2g-lichee-tools"/> -->
 <!--   <project remote="cb2" revision="master" path="frameworks/base" name="a20-b2g-frameworks-base"/> -->
