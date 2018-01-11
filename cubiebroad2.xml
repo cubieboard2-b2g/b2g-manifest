@@ -5,6 +5,7 @@
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
 <!--   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" /> -->
   <remote name="cb2" fetch="https://github.com/cubiebroad2-b2g/" />
+  <remote name="caf" fetch="git://codeaurora.org/" />
   
 
   <!-- B2G specific things. -->
@@ -24,7 +25,7 @@
 
 
   <!-- Stock Android things -->
-  <project remote="aosp" path="external/jack" name="platform/external/jack" revision="refs/tags/android-4.2.2_r1" />
+  <project remote="caf" path="external/jack" name="platform/external/jack" revision="refs/tags/android-4.2.2_r1" />
 
   <!-- cubiebroad2 special things -->
 
