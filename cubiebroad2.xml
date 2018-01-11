@@ -3,40 +3,31 @@
   <remote name="aosp" fetch="https://aosp.tuna.tsinghua.edu.cn" />
   <remote name="b2g" fetch="git://github.com/mozilla-b2g/" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
-  <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" />
+<!--   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases" /> -->
   <remote name="cb2" fetch="https://github.com/cubiebroad2-b2g/" />
   
-  <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="4"/>
-  
-  <!-- Gonk specific things and forks -->
-  <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="mozillaorg" revision="a0d541d8c5ab93fe655201820ad5fad7558a9cdd" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="b4fae5d56f365139b983029f26dc94bb66766ba1" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="4a962bdab532e18f53e9d2d114c349983262c6b7" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
-  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
-  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
-  <project path="prebuilts/qemu-kernel" name="fake-qemu-kernel" remote="b2g" revision="master"/>
+
+  <!-- B2G specific things. -->
+<!--   <project name="gaia" path="gaia" remote="b2g" revision="v2.5"/>
+  <project name="gecko-b2g" path="gecko" remote="b2g" revision="b2g44_v2_5" />
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="v2.5"/> -->
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="v2.5"/>
+  <project name="fake-libdvm" path="dalvik" remote="b2g" revision="v2.5"/>
+  <project name="fake-qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="v2.5"/>
+  <project name="moztt" path="external/moztt" remote="b2g" revision="v2.5"/>
+  <project name="apitrace" path="external/apitrace" remote="apitrace" revision="1837d370a964a9719160c79155a07980f2ea4bdf" />
+  <project path="external/valgrind" name="valgrind" remote="b2g" revision="v2.5" />
+  <project path="external/VEX" name="vex" remote="b2g" revision="v2.5" />
   <project path="system/bluetoothd" name="platform_system_bluetoothd" remote="b2g" revision="master"/>
   <project path="system/libfdio" name="platform_system_libfdio" remote="b2g" revision="master"/>
+  <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="v2.5"/>
+
 
   <!-- Stock Android things -->
   <project path="external/jack" name="platform/external/jack"/>
 
   <!-- cubiebroad2 special things -->
-<!-- <project remote="cb2" revision="cb2" path="kernel" name="a20-b2g-kernel"/> -->
-<!--  <project remote="cb2" revision="cb2" path="device/softwinner" name="a20-b2g-device-softwinner"/> -->
-<!--   <project remote="cb2" revision="cb2" path="frameworks/native" name="a20-b2g-frameworks-native"/> -->
-<!--   <project remote="cb2" revision="cb2" path="lichee_tools" name="a20-b2g-lichee-tools"/> -->
-<!--   <project remote="cb2" revision="master" path="frameworks/base" name="a20-b2g-frameworks-base"/> -->
-<!--   <project remote="cb2" revision="master" path="frameworks/av" name="a20-b2g-frameworks-av"/> -->
-<!--   <project remote="cb2" revision="master" path="frameworks/opt" name="a20-b2g-frameworks-opt"/> -->
-<!--   <project remote="cb2" revision="master" path="frameworks/wilhelm" name="a20-b2g-frameworks-wilhelm"/> -->
-<!--   <project remote="cb2" revision="master" path="hardware" name="a20-b2g-hardware"/> -->
-<!--   <project remote="cb2" revision="master" path="external/ppp" name="a20-b2g-external-ppp"/> -->
-<!--   <project remote="cb2" revision="master" path="external/tinyalsa" name="a20-b2g-external-tinyalsa"/> -->
-<!--  <project remote="cb2" revision="master" path="linaro_toolchain" name="a20-b2g-linaro-toolchain"/> -->
+
   <project remote="cb2" revision="master" path="patches" name="a20-b2g-patches"/>
   <project remote="cb2" revision="cb2" path="system/core" name="cubiebroad2-b2g-system-core"/>
   <project remote="cb2" revision="cb2" path="build" name="cubiebroad2-b2g-build">
