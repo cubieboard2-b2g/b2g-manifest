@@ -24,7 +24,7 @@
 
 
   <!-- Stock Android things -->
-  <project path="external/jack" name="platform/external/jack"/>
+  <project remote="aosp" path="external/jack" name="platform/external/jack" revision="refs/tags/android-4.2.2_r1" />
 
   <!-- cubiebroad2 special things -->
 
