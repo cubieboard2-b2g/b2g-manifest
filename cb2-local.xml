@@ -25,7 +25,7 @@
 
 
   <!-- Stock Android things -->
-  <project remote="caf" path="external/jack" name="platform/external/jack" revision="refs/tags/android-4.2.2_r1" />
+  <project remote="aosp" path="external/jack" name="platform/external/jack" revision="refs/tags/android-4.2.2_r1" />
 
   <!-- cubiebroad2 special things -->
 
@@ -34,8 +34,3 @@
   <project remote="cb2" revision="cb2" path="build" name="cubiebroad2-b2g-build">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-
-  <!-- at present , I don't know how to use below uboot instead of prebuilt uboot-->
-  <!--project remote="cb2" revision="master" path="u-boot" name="a20-b2g-uboot"/-->
-
-</manifest>
