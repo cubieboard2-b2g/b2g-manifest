@@ -9,8 +9,8 @@
   <remote name="mozilla" fetch="git://github.com/mozilla/" />
   <remote name="cubieboard2-b2g" fetch="https://github.com/cubieboard2-b2g" />
 
-<!--   <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="4"/> -->
-    <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="4"/>
+  <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="4"/>
+<!--     <default revision="refs/tags/android-4.2.2_r1" remote="caf" sync-j="4"/> -->
 
   <!-- Gonk specific things and forks -->
   <project name="gaia" path="gaia" remote="b2g" revision="master" />
@@ -100,7 +100,7 @@
   <project name="platform/external/svox" path="external/svox"/>
   <project name="platform/external/tagsoup" path="external/tagsoup"/>
   <project name="platform/external/tcpdump" path="external/tcpdump"/>
-  <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
+<!--   <project name="platform/external/tinyalsa" path="external/tinyalsa"/> -->
   <project name="platform/external/tinyxml" path="external/tinyxml"/>
   <project name="platform/external/tinyxml2" path="external/tinyxml2"/>
   <project name="platform/external/tremolo" path="external/tremolo"/>
