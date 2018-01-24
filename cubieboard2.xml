@@ -27,7 +27,7 @@
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="master" />
   <project path="external/valgrind" name="valgrind" remote="b2g" revision="fxos" />
   <project path="external/VEX" name="vex" remote="b2g" revision="fxos" />
-    <project path="patches" name="gonk-patches" remote="b2g" revision="master" />
+<!--     <project path="patches" name="gonk-patches" remote="b2g" revision="master" /> -->
 
  <!-- Stock Android things -->
   <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1"/>
@@ -135,7 +135,7 @@
   <project remote="cubieboard2-b2g" revision="master" path="hardware" name="CB2_hardware"/>
   <project remote="cubieboard2-b2g" revision="master" path="external/ppp" name="CB2_external_ppp"/>
   <project remote="cubieboard2-b2g" revision="master" path="external/tinyalsa" name="CB2_external_tinyalsa"/>
-  <project remote="fire_repo" revision="master" path="patches" name="a20-b2g-patches"/>
+  <project remote="cubieboard2-b2g" revision="master" path="patches" name="a20-b2g-patches"/>
 
 
 </manifest>
