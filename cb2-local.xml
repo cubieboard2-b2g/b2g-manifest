@@ -15,11 +15,10 @@
 
 
   <!-- Gonk specific things and forks -->
-    <!--
-  <project path="gaia" name="V2.0/gaia"  name="b2g_local_repo" /> -->
+  <project path="gaia" name="V2_0/gaia"  name="b2g_local_repo" /> 
   <project path="gaia/b2g_sdk" name="b2g_sdk" remote="b2g_local_repo" revision="master" />
-  <project path="gecko-b2g" name="V2.0/gecko-b2g"  name="b2g_local_repo" revision="master" />
-  <project path="gonk-misc" name="V2.0/gonk-misc"  name="b2g_local_repo" revision="master" />
+  <project path="gecko-b2g" name="V2_0/gecko-b2g"  name="b2g_local_repo" revision="master" />
+  <project path="gonk-misc" name="V2_0/gonk-misc"  name="b2g_local_repo" revision="master" />
   <project path="dalvik" name="dalvik" name="b2g_local_repo" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="external/moztt" remote="b2g_local_repo" revision="master" />
