@@ -2,6 +2,6 @@
 <manifest>
 
   <remote name="aosp" fetch="git://codeaurora.org/" />
-  <project path="external/jack" name="external/jack" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/jack" name="platform/external/jack"  remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
 </manifest>
