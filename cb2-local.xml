@@ -15,20 +15,20 @@
 
 
   <!-- Gonk specific things and forks -->
-   <!--
-  <project path="gaia" name="gaia"  name="b2g_local_repo" revision="master" /> 
+  <project path="gaia" name="gaia"  remote="b2g_local_repo" /> 
+  <!--
   <project path="gaia/b2g_sdk" name="b2g_sdk" remote="b2g_local_repo" revision="master" />
-  <project path="gecko-b2g" name="gecko-b2g"  name="b2g_local_repo" revision="master" />
-  <project path="gonk-misc" name="gonk-misc"  name="b2g_local_repo" revision="master" />
-  <project path="dalvik" name="dalvik" name="b2g_local_repo" revision="master" />
+  <project path="gecko-b2g" name="gecko-b2g"  remote="b2g_local_repo" revision="master" />
+  <project path="gonk-misc" name="gonk-misc"  remote="b2g_local_repo" revision="master" />
+  <project path="dalvik" name="dalvik" remote="b2g_local_repo" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="external/moztt" remote="b2g_local_repo" revision="master" />
   <project path="external/apitrace" name="external/apitrace" remote="b2g_local_repo" revision="master" />
   <project name="hardware/libhardware_moz" path="hardware/libhardware_moz" remote="b2g_local_repo" revision="master" />
   <project path="system/libfdio" name="system/libfdio" remote="b2g_local_repo" revision="master" />
-  <project path="system/libpdu" name="system/libpdu" remote="b2g_local_repo" revision="master" /> -->
+  <project path="system/libpdu" name="system/libpdu" remote="b2g_local_repo" revision="master" /> 
 
-  <!-- Stock Android things -->
+
   <project path="prebuilts/clang/linux-x86/3.1" name="prebuilts/clang/linux-x86/3.1" remote="b2g_local_repo" revision="master" />
   <project path="prebuilts/clang/linux-x86/3.2" name="prebuilts/clang/linux-x86/3.2" remote="b2g_local_repo" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="b2g_local_repo" revision="master" />
@@ -120,32 +120,18 @@
   <project path="system/netd" name="system/netd"/>
   <project path="system/security" name="system/security"/>
   <project path="system/vold" name="system/vold"/>
-
-  <!-- flatfish specific things -->
   <project path="device/generic/armv7-a" name="device/generic/armv7-a"/>
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon"/>
   <project path="external/wpa_supplicant_8" name="external/wpa_supplicant_8"/>
 
-  <!-- micropi special things -->
   <project path="system/core" name="platform_system_core" remote="b2g" revision="b2g-4.2.2_r1"/>
-  <!-- <project remote="fire_repo" revision="micropi" path="system/core" name="a20-b2g-system-core"/> -->
   <project path="device/softwinner" name="device/softwinner-b2g"/>
-  <!-- <project remote="fire_repo" revision="micropi" path="frameworks/native" name="a20-b2g-frameworks-native"/> -->
-  <!-- <project remote="fire_repo" revision="micropi" path="lichee_tools" name="a20-b2g-lichee-tools"/> -->
-  <!-- <project remote="fire_repo" revision="master" path="frameworks/base" name="a20-b2g-frameworks-base"/> -->
-  <!-- <project remote="fire_repo" revision="master" path="frameworks/av" name="a20-b2g-frameworks-av"/> -->
-  <!-- <project remote="fire_repo" revision="master" path="frameworks/opt" name="a20-b2g-frameworks-opt"/> -->
-  <!-- <project remote="fire_repo" revision="master" path="frameworks/wilhelm" name="a20-b2g-frameworks-wilhelm"/> -->
-  <!-- <project remote="fire_repo" revision="master" path="hardware" name="a20-b2g-hardware"/> -->
   <project path="external/ppp" name="external/ppp"/>
   <project path="external/tinyalsa" name="external/tinyalsa"/>
-  <!-- <project remote="fire_repo" revision="master" path="linaro_toolchain" name="a20-b2g-linaro-toolchain"/> -->
-  <!-- <project remote="fire_repo" revision="master" path="patches" name="a20-b2g-patches"/> -->
   <project path="build" name="build">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <!-- at present , I don't know how to use below uboot instead of prebuilt uboot-->
-  <!--project remote="fire_repo" revision="master" path="u-boot" name="a20-b2g-uboot"/-->
+-->
 
 </manifest>
