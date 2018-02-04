@@ -2,8 +2,6 @@
 <manifest>
 
   <remote name="aosp" fetch="fetch="https://aosp.tuna.tsinghua.edu.cn"" />
-
-  <default revision="refs/tags/android-4.2.2_r1" remote="aosp" sync-j="4"/>
-  <project path="external/jack" name="external/jack"/>
+  <project path="external/jack" name="external/jack" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
 </manifest>
