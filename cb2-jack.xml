@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <remote name="aosp" fetch="fetch="https://aosp.tuna.tsinghua.edu.cn"" />
+  <remote name="aosp" fetch="https://aosp.tuna.tsinghua.edu.cn" />
   <project path="external/jack" name="external/jack" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
 </manifest>
