@@ -15,6 +15,7 @@
 
 
   <!-- Gonk specific things and forks -->
+   <!--
   <project path="gaia" name="gaia"  name="b2g_local_repo" revision="master" /> 
   <project path="gaia/b2g_sdk" name="b2g_sdk" remote="b2g_local_repo" revision="master" />
   <project path="gecko-b2g" name="gecko-b2g"  name="b2g_local_repo" revision="master" />
@@ -25,7 +26,7 @@
   <project path="external/apitrace" name="external/apitrace" remote="b2g_local_repo" revision="master" />
   <project name="hardware/libhardware_moz" path="hardware/libhardware_moz" remote="b2g_local_repo" revision="master" />
   <project path="system/libfdio" name="system/libfdio" remote="b2g_local_repo" revision="master" />
-  <project path="system/libpdu" name="system/libpdu" remote="b2g_local_repo" revision="master" />
+  <project path="system/libpdu" name="system/libpdu" remote="b2g_local_repo" revision="master" /> -->
 
   <!-- Stock Android things -->
   <project path="prebuilts/clang/linux-x86/3.1" name="prebuilts/clang/linux-x86/3.1" remote="b2g_local_repo" revision="master" />
