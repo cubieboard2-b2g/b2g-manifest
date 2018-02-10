@@ -15,8 +15,8 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project-->
   <project path="dalvik" name="fake-libdvm" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="mozillaorg" revision="a0d541d8c5ab93fe655201820ad5fad7558a9cdd" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="b4fae5d56f365139b983029f26dc94bb66766ba1" />
+  <project path="gaia" name="gaia" remote="b2g" revision="a0d541d8c5ab93fe655201820ad5fad7558a9cdd" />
+  <project path="gecko" name="gecko-b2g" remote="b2g" revision="b4fae5d56f365139b983029f26dc94bb66766ba1" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="4a962bdab532e18f53e9d2d114c349983262c6b7" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
