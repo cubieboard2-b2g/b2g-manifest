@@ -26,108 +26,189 @@
   <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="34adfb400e031f3dd3353d92413572db5e3a7376"/>
 
   <!-- Stock Android things -->
-  <!-- Information: platform/prebuilts/clang/darwin-x86/3.1 is tagged with android-cts-5.1_r26 --><project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" revision="426233405bef3c7c825095ab14256c3773894b9b"/>
-  <!-- Information: platform/prebuilts/clang/darwin-x86/3.2 is tagged with android-cts-5.1_r26 --><project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2" revision="af856d77b3cbb1f6afccdc531bee991403c28907"/>
-  <!-- Information: platform/prebuilts/clang/linux-x86/3.1 is tagged with android-cts-5.1_r26 --><project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" revision="e95b4ce22c825da44d14299e1190ea39a5260bde"/>
-  <!-- Information: platform/prebuilts/clang/linux-x86/3.2 is tagged with android-cts-5.1_r26 --><project groups="linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" revision="471afab478649078ad7c75ec6b252481a59e19b8"/>
-  <!-- Information: platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6 is tagged with LNX.LA.3.7.1.1-09710-8x09.0 --><project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" revision="21b2cba584638ed5ffad8e3fd3e6808bfa299cf0"/>
-  <!-- Information: platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6 is tagged with M8064AAAAANLYA27300 --><project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="cd1d69ca633c901c064b7f934735493025fa20d9"/>
-  <!-- Information: platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6 is tagged with M8064AAAAANLYA27300 --><project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="9e754ea754eac37d1cd20182cc5d37df85239b0d"/>
-  <!-- Information: platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6 is tagged with M8064AAAAANLYA27300 --><project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="4b88bc4aafd69d02e14e2aa99046db67666f7f52"/>
-  <!-- Information: platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6 is tagged with LNX.LA.3.7.1.1-09710-8x09.0 --><project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb"/>
-  <!-- Information: platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6 is tagged with M8064AAAAANLYA27300 --><project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="1aa5822560cdc5cf155e2a8300c73441cb519ec4"/>
-  <!-- Information: platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8 is tagged with android-cts-5.1_r26 --><project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="d9735fc81434f2af2c44d86ca57740c673c8d9bc"/>
-  <!-- Information: device/sample is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 --><project name="device/sample" path="device/sample" revision="c331ea1f30b9699a523852d8eeded031267ba6a4"/>
-  <!-- Information: device/common is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 --><project name="device/common" path="device/common" revision="71e23bec393ce3930822c1224ffad80f2918a957"/>
-  <!-- Information: platform/abi/cpp is tagged with AU_LINUX_ANDROID_JB_3.2.1.3.04.03.00.176.185 --><project name="platform/abi/cpp" path="abi/cpp" revision="eb789ea833d8d800662b67914d9c1785a58c2caa"/>
-  <!-- Information: platform/bionic is tagged with android-4.2.2_r1.2 --><project name="platform/bionic" path="bionic" revision="5115d4348ee720be3db77ae54a06c492049e5ea3"/>
-  <!-- Information: platform/bootable/recovery is tagged with M8974AAAAANLYA20110 --><project name="platform/bootable/recovery" path="bootable/recovery" revision="a88a3b35960e5c12fd4de18c58376d9c78e19043"/>
-  <!-- Information: platform/external/aac is tagged with M8064AAAAANLYA27300 --><project name="platform/external/aac" path="external/aac" revision="6ab36997af5d5acda4f21d33031f4e45c85f96b7"/>
-  <!-- Information: platform/external/bluetooth/bluedroid is tagged with android-4.2.2_r1.2 --><project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="689d66b6559dcb3a0ad7f6cc33b6129e50910253"/>
-  <!-- Information: platform/external/bsdiff is tagged with LNX.LA.3.7.1.1-09710-8x09.0 --><project name="platform/external/bsdiff" path="external/bsdiff" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee"/>
-  <!-- Information: platform/external/bzip2 is tagged with M8064AAAAANLYA27300 --><project name="platform/external/bzip2" path="external/bzip2" revision="8a81a414914781498381ad24153c5e6c4a7ed525"/>
-  <!-- Information: platform/external/clang is tagged with M8064AAAAANLYA27300 --><project name="platform/external/clang" path="external/clang" revision="210d8aa7162e928d81d3f284b5ca7bc6bb3a9ba7"/>
-  <!-- Information: platform/external/compiler-rt is tagged with M8064AAAAANLYA27300 --><project name="platform/external/compiler-rt" path="external/compiler-rt" revision="1f922a5259510f70a12576e7a61eaa0033a02b16"/>
-  <!-- Information: platform/external/dbus is tagged with AU_LINUX_ANDROID_JB_2.5.1.04.02.02.064.036 --><project name="platform/external/dbus" path="external/dbus" revision="75c4b89fa7ffa66b07164ca1c5b109e36e5e97aa"/>
-  <!-- Information: platform/external/dhcpcd is tagged with AU_LINUX_ANDROID_JB_2.5.1.04.02.02.064.036 --><project name="platform/external/dhcpcd" path="external/dhcpcd" revision="f90995451089db8e5d4a72641e74cf2e5c35074f"/>
-  <!-- Information: platform/external/dnsmasq is tagged with M8064AAAAANLYA27300 --><project name="platform/external/dnsmasq" path="external/dnsmasq" revision="758fb6cde3ee6ab53aa6b4b07a2acc2bde0b6c5d"/>
-  <!-- Information: platform/external/dropbear is tagged with M8064AAAAANLYA27300 --><project name="platform/external/dropbear" path="external/dropbear" revision="23022b83136aed155988e760f890ad01b2b77f92"/>
-  <!-- Information: platform/external/e2fsprogs is tagged with AU_LINUX_ANDROID_JB_3.2.1.3.04.03.00.176.185 --><project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="63c2d4871fe374f13a0bc6e2efa341663277c123"/>
-  <!-- Information: platform/external/elfutils is tagged with M8064AAAAANLYA27300 --><project name="platform/external/elfutils" path="external/elfutils" revision="101941576c52a1270c9c2d63ea95d48729d6cf96"/>
-  <!-- Information: platform/external/expat is tagged with M8064AAAAANLYA27300 --><project name="platform/external/expat" path="external/expat" revision="bb9f3f74212ef523ff693cba9d782575ebba7418"/>
-  <!-- Information: platform/external/fdlibm is tagged with M8064AAAAANLYA27300 --><project name="platform/external/fdlibm" path="external/fdlibm" revision="24856709256f5243a6c29446577052f15fb1ab3b"/>
-  <!-- Information: platform/external/flac is tagged with M8064AAAAANLYA27300 --><project name="platform/external/flac" path="external/flac" revision="686d6ff2afda2ea3211bec37ad0daa655c24e6d4"/>
-  <!-- Information: platform/external/freetype is tagged with AU_LINUX_ANDROID_LNX.LA.3.2.7.04.03.00.186.105 --><project name="platform/external/freetype" path="external/freetype" revision="8afe960626dbf326354b836fd4d63e05b6974195"/>
-  <!-- Information: platform/external/gcc-demangle is tagged with M8064AAAAANLYA27300 --><project name="platform/external/gcc-demangle" path="external/gcc-demangle" revision="d6f70187df96e4f1968adbe9b52035dc474b7590"/>
-  <!-- Information: platform/external/genext2fs is tagged with M8064AAAAANLYA27300 --><project name="platform/external/genext2fs" path="external/genext2fs" revision="2e672fab1b8935ab6df5c2fc69386fe6b4ade873"/>
-  <!-- Information: platform/external/giflib is tagged with AU_LINUX_ANDROID_JB_3.2.1.3.04.03.00.176.185 --><project name="platform/external/giflib" path="external/giflib" revision="b027dc00b076d1820924bdcefeb987bb5d2dbf35"/>
-  <!-- Information: platform/external/gtest is tagged with M8064AAAAANLYA27300 --><project name="platform/external/gtest" path="external/gtest" revision="344e5f3db17615cc853073a02968a603efd39109"/>
-  <!-- Information: platform/external/harfbuzz is tagged with M8064AAAAANLYA27300 --><project name="platform/external/harfbuzz" path="external/harfbuzz" revision="6842c622d8b68251f7d696d22bfa44a16c0bef46"/>
+  <!-- Information: platform/prebuilts/clang/darwin-x86/3.1 is tagged with android-cts-5.1_r26 -->
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" revision="426233405bef3c7c825095ab14256c3773894b9b"/>
+  <!-- Information: platform/prebuilts/clang/darwin-x86/3.2 is tagged with android-cts-5.1_r26 -->
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2" revision="af856d77b3cbb1f6afccdc531bee991403c28907"/>
+  <!-- Information: platform/prebuilts/clang/linux-x86/3.1 is tagged with android-cts-5.1_r26 -->
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" revision="e95b4ce22c825da44d14299e1190ea39a5260bde"/>
+  <!-- Information: platform/prebuilts/clang/linux-x86/3.2 is tagged with android-cts-5.1_r26 -->
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" revision="471afab478649078ad7c75ec6b252481a59e19b8"/>
+  <!-- Information: platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6 is tagged with LNX.LA.3.7.1.1-09710-8x09.0 -->
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" revision="21b2cba584638ed5ffad8e3fd3e6808bfa299cf0"/>
+  <!-- Information: platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6 is tagged with M8064AAAAANLYA27300 -->
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="cd1d69ca633c901c064b7f934735493025fa20d9"/>
+  <!-- Information: platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6 is tagged with M8064AAAAANLYA27300 -->
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="9e754ea754eac37d1cd20182cc5d37df85239b0d"/>
+  <!-- Information: platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6 is tagged with M8064AAAAANLYA27300 -->
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="4b88bc4aafd69d02e14e2aa99046db67666f7f52"/>
+  <!-- Information: platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6 is tagged with LNX.LA.3.7.1.1-09710-8x09.0 -->
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb"/>
+  <!-- Information: platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6 is tagged with M8064AAAAANLYA27300 -->
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="1aa5822560cdc5cf155e2a8300c73441cb519ec4"/>
+  <!-- Information: platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8 is tagged with android-cts-5.1_r26 -->
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="d9735fc81434f2af2c44d86ca57740c673c8d9bc"/>
+  <!-- Information: device/sample is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 -->
+  <project name="device/sample" path="device/sample" revision="c331ea1f30b9699a523852d8eeded031267ba6a4"/>
+  <!-- Information: device/common is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 -->
+  <project name="device/common" path="device/common" revision="71e23bec393ce3930822c1224ffad80f2918a957"/>
+  <!-- Information: platform/abi/cpp is tagged with AU_LINUX_ANDROID_JB_3.2.1.3.04.03.00.176.185 -->
+  <project name="platform/abi/cpp" path="abi/cpp" revision="eb789ea833d8d800662b67914d9c1785a58c2caa"/>
+  <!-- Information: platform/bionic is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/bionic" path="bionic" revision="5115d4348ee720be3db77ae54a06c492049e5ea3"/>
+  <!-- Information: platform/bootable/recovery is tagged with M8974AAAAANLYA20110 -->
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="a88a3b35960e5c12fd4de18c58376d9c78e19043"/>
+  <!-- Information: platform/external/aac is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/aac" path="external/aac" revision="6ab36997af5d5acda4f21d33031f4e45c85f96b7"/>
+  <!-- Information: platform/external/bluetooth/bluedroid is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="689d66b6559dcb3a0ad7f6cc33b6129e50910253"/>
+  <!-- Information: platform/external/bsdiff is tagged with LNX.LA.3.7.1.1-09710-8x09.0 -->
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee"/>
+  <!-- Information: platform/external/bzip2 is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/bzip2" path="external/bzip2" revision="8a81a414914781498381ad24153c5e6c4a7ed525"/>
+  <!-- Information: platform/external/clang is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/clang" path="external/clang" revision="210d8aa7162e928d81d3f284b5ca7bc6bb3a9ba7"/>
+  <!-- Information: platform/external/compiler-rt is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/compiler-rt" path="external/compiler-rt" revision="1f922a5259510f70a12576e7a61eaa0033a02b16"/>
+  <!-- Information: platform/external/dbus is tagged with AU_LINUX_ANDROID_JB_2.5.1.04.02.02.064.036 -->
+  <project name="platform/external/dbus" path="external/dbus" revision="75c4b89fa7ffa66b07164ca1c5b109e36e5e97aa"/>
+  <!-- Information: platform/external/dhcpcd is tagged with AU_LINUX_ANDROID_JB_2.5.1.04.02.02.064.036 -->
+  <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="f90995451089db8e5d4a72641e74cf2e5c35074f"/>
+  <!-- Information: platform/external/dnsmasq is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="758fb6cde3ee6ab53aa6b4b07a2acc2bde0b6c5d"/>
+  <!-- Information: platform/external/dropbear is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/dropbear" path="external/dropbear" revision="23022b83136aed155988e760f890ad01b2b77f92"/>
+  <!-- Information: platform/external/e2fsprogs is tagged with AU_LINUX_ANDROID_JB_3.2.1.3.04.03.00.176.185 -->
+  <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="63c2d4871fe374f13a0bc6e2efa341663277c123"/>
+  <!-- Information: platform/external/elfutils is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/elfutils" path="external/elfutils" revision="101941576c52a1270c9c2d63ea95d48729d6cf96"/>
+  <!-- Information: platform/external/expat is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/expat" path="external/expat" revision="bb9f3f74212ef523ff693cba9d782575ebba7418"/>
+  <!-- Information: platform/external/fdlibm is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/fdlibm" path="external/fdlibm" revision="24856709256f5243a6c29446577052f15fb1ab3b"/>
+  <!-- Information: platform/external/flac is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/flac" path="external/flac" revision="686d6ff2afda2ea3211bec37ad0daa655c24e6d4"/>
+  <!-- Information: platform/external/freetype is tagged with AU_LINUX_ANDROID_LNX.LA.3.2.7.04.03.00.186.105 -->
+  <project name="platform/external/freetype" path="external/freetype" revision="8afe960626dbf326354b836fd4d63e05b6974195"/>
+  <!-- Information: platform/external/gcc-demangle is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/gcc-demangle" path="external/gcc-demangle" revision="d6f70187df96e4f1968adbe9b52035dc474b7590"/>
+  <!-- Information: platform/external/genext2fs is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/genext2fs" path="external/genext2fs" revision="2e672fab1b8935ab6df5c2fc69386fe6b4ade873"/>
+  <!-- Information: platform/external/giflib is tagged with AU_LINUX_ANDROID_JB_3.2.1.3.04.03.00.176.185 -->
+  <project name="platform/external/giflib" path="external/giflib" revision="b027dc00b076d1820924bdcefeb987bb5d2dbf35"/>
+  <!-- Information: platform/external/gtest is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/gtest" path="external/gtest" revision="344e5f3db17615cc853073a02968a603efd39109"/>
+  <!-- Information: platform/external/harfbuzz is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="6842c622d8b68251f7d696d22bfa44a16c0bef46"/>
   <!-- Something wrong in caf icu4c.git: refs/tags/android-4.2.2_r1 is lost. Use a equivalent tag -->
-  <!-- Information: platform/external/icu4c is tagged with M8064AAAAANLYA27300 --><project name="platform/external/icu4c" path="external/icu4c" revision="7c2b59472f5086b12884891153b07ab11726fb99"/>
-  <!-- Information: platform/external/iproute2 is tagged with M8064AAAAANLYA27300 --><project name="platform/external/iproute2" path="external/iproute2" revision="f145162f3afe38720a6b53d77d453a7b2365703f"/>
-  <!-- Information: platform/external/ipsec-tools is tagged with M8064AAAAANLYA27300 --><project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="f24812ba17f2e7cc7fafdffaa21c6e54195f26c9"/>
-  <!-- Information: platform/external/iptables is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 --><project name="platform/external/iptables" path="external/iptables" revision="42ea6673b74e0ee9ad17f5462dc171fbe1491137"/>
-  <!-- Information: platform/external/jack is tagged with LA.UM.5.3-10410-89xx.0 --><project name="platform/external/jack" path="external/jack" revision="5ceb2025ac5d25ed48183ac2d3dac4691fe761fb"/>
-  <!-- Information: platform/external/jhead is tagged with M8064AAAAANLYA27300 --><project name="platform/external/jhead" path="external/jhead" revision="dc4fa4c9d4d0246b900c587cbeb6dabbbe813199"/>
-  <!-- Information: platform/external/jpeg is tagged with AU_LINUX_ANDROID_JB_2.5.1.04.02.02.064.036 --><project name="platform/external/jpeg" path="external/jpeg" revision="6f1b7fb8079197d4a4edc5d2e5c5546302197f33"/>
-  <!-- Information: platform/external/junit is tagged with M8064AAAAANLYA27300 --><project name="platform/external/junit" path="external/junit" revision="f4e7f982bdd63feb52e5d63e7a5605d5a7f8df36"/>
-  <!-- Information: platform/external/libgsm is tagged with M8064AAAAANLYA27300 --><project name="platform/external/libgsm" path="external/libgsm" revision="43b81e9497e8e467b95062f3effd6c7613c1d676"/>
-  <!-- Information: platform/external/liblzf is tagged with LA.UM.5.3-10410-89xx.0 --><project name="platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
-  <!-- Information: platform/external/libnl-headers is tagged with LNX.LA.2.7-05910-8064.0 --><project name="platform/external/libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658"/>
-  <!-- Information: platform/external/libogg is tagged with android-cts-5.1_r26 --><project name="platform/external/libogg" path="external/libogg" revision="ec0b24fb1468abe37be4164a6feb16568e036bde"/>
-  <!-- Information: platform/external/libpng is tagged with M8064AAAAANLYA27300 --><project name="platform/external/libpng" path="external/libpng" revision="deba48b32d593851724bdce88dd9b754c4722645"/>
-  <!-- Information: platform/external/libvpx is tagged with M8064AAAAANLYA27300 --><project name="platform/external/libvpx" path="external/libvpx" revision="b9c4e676b7be3cf3a9e45e06d71bf0ca92344a5b"/>
-  <!-- Information: platform/external/llvm is tagged with AU_LINUX_ANDROID_JB_VANILLA.04.02.02.060.061 --><project name="platform/external/llvm" path="external/llvm" revision="99e8132d3daedcebd061aacb0b08d1e1a6dab14c"/>
-  <!-- Information: platform/external/mdnsresponder is tagged with M8064AAAAANLYA27300 --><project name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="8d61c6ee30ea24755dfd111fb497c0533c0ff461"/>
-  <!-- Information: platform/external/mksh is tagged with M8064AAAAANLYA27300 --><project name="platform/external/mksh" path="external/mksh" revision="93bd42c789325fdd5f8c9ba8f000abd65281f241"/>
-  <!-- Information: platform/external/netcat is tagged with M8064AAAAANLYA27300 --><project name="platform/external/netcat" path="external/netcat" revision="e4e83f8147f92141cd02cc46cccca088c527ea2a"/>
-  <!-- Information: platform/external/openssl is tagged with M8974AAAAANLYA20110 --><project name="platform/external/openssl" path="external/openssl" revision="ba352abc91bee1349bbdcbababd38e954e2020c7"/>
-  <!-- Information: platform/external/ping is tagged with M8064AAAAANLYA27300 --><project name="platform/external/ping" path="external/ping" revision="351fb705d76aa9b12ea69b1ffe456c23029f1064"/>
-  <!-- Information: platform/external/ping6 is tagged with M8064AAAAANLYA27300 --><project name="platform/external/ping6" path="external/ping6" revision="d758e6092bbd733f608ea49ffdd00f0d421b4fc7"/>
-  <!-- Information: platform/external/protobuf is tagged with android-4.2.2_r1.2 --><project name="platform/external/protobuf" path="external/protobuf" revision="db9ab02c090cdc5d2b31399867a4052351b8793d"/>
-  <!-- Information: platform/external/safe-iop is tagged with LA.UM.5.3-10410-89xx.0 --><project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
-  <!-- Information: platform/external/skia is tagged with android-4.2.2_r1.2 --><project name="platform/external/skia" path="external/skia" revision="7cd90d4eecdba0f40a36945749d40df95d6d641b"/>
-  <!-- Information: platform/external/sonivox is tagged with M8064AAAAANLYA27300 --><project name="platform/external/sonivox" path="external/sonivox" revision="4a213147dbe60416aa26ebdba0f3c631b2e2b013"/>
-  <!-- Information: platform/external/speex is tagged with LNX.LA.3.7.1.1-09710-8x09.0 --><project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
-  <!-- Information: platform/external/sqlite is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 --><project name="platform/external/sqlite" path="external/sqlite" revision="42c3f41862cfff8d4539903e47a42cae97d13d37"/>
-  <!-- Information: platform/external/stlport is tagged with M8064AAAAANLYA27300 --><project name="platform/external/stlport" path="external/stlport" revision="30865cb901602ed078ff2ed534529d847b3b54b5"/>
-  <!-- Information: platform/external/strace is tagged with M8064AAAAANLYA27300 --><project name="platform/external/strace" path="external/strace" revision="7d2d23fd9b87c3a1fc61a51e6cb62923d952fb79"/>
-  <!-- Information: platform/external/tagsoup is tagged with LNX.LA.3.7.1.1-09710-8x09.0 --><project name="platform/external/tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
-  <!-- Information: platform/external/tinyxml is tagged with android-cts-4.1_r4 --><project name="platform/external/tinyxml" path="external/tinyxml" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e"/>
-  <!-- Information: platform/external/tinyxml2 is tagged with android-cts-5.1_r26 --><project name="platform/external/tinyxml2" path="external/tinyxml2" revision="c74b546f5af36968ffa56d7fd4529f4273b96f48"/>
-  <!-- Information: platform/external/tremolo is tagged with M8064AAAAANLYA13500 --><project name="platform/external/tremolo" path="external/tremolo" revision="3eec17965b3e2974e120e864b351a916f59835ba"/>
-  <!-- Information: platform/external/webp is tagged with M8064AAAAANLYA27300 --><project name="platform/external/webp" path="external/webp" revision="5a50414796e9a458925c7a13a15055d02406bf43"/>
-  <!-- Information: platform/external/webrtc is tagged with M8064AAAAANLYA27300 --><project name="platform/external/webrtc" path="external/webrtc" revision="cf20dbf9d2547baa8a0fb631f282109e7a58a6cc"/>
-  <!-- Information: platform/external/yaffs2 is tagged with M8064AAAAANLYA27300 --><project name="platform/external/yaffs2" path="external/yaffs2" revision="9c64cac7542658f85417d651d8b9422e054d5e72"/>
-  <!-- Information: platform/external/zlib is tagged with M8064AAAAANLYA27300 --><project name="platform/external/zlib" path="external/zlib" revision="2d5094f0ebcb01fb9f11952d776945b090d89cf0"/>
-  <!--project path="frameworks/av" name="platform/frameworks/av"/>
-  <project path="frameworks/base" name="platform/frameworks/base"/>
-  <project path="frameworks/native" name="platform/frameworks/native"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm"/>
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
-  <project path="hardware/ril" name="platform/hardware/ril"/-->
-  <!-- Information: platform/libcore is tagged with android-4.2.2_r1.2 --><project name="platform/libcore" path="libcore" revision="cc55503ccef76a3b443b1dba3a2f05049b2b34f4"/>
-  <!-- Information: platform/libnativehelper is tagged with M8064AAAAANLYA27300 --><project name="platform/libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa"/>
-  <!-- Information: platform/ndk is tagged with M8064AAAAANLYA27300 --><project name="platform/ndk" path="ndk" revision="6d6807c76da40a9c9a27ea235c7518557c95219c"/>
-  <!-- Information: platform/prebuilts/misc is tagged with android-4.2.2_r1.2 --><project name="platform/prebuilts/misc" path="prebuilts/misc" revision="f32b66a45d6d74a427bf4a159296b389a26c4d7f"/>
-  <!-- Information: platform/prebuilts/ndk is tagged with M8064AAAAANLYA27300 --><project name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="9e04eb2e30bc8d5707c57c2787111b3a5b365fa9"/>
-  <!-- Information: platform/prebuilts/sdk is tagged with android-4.2.2_r1.2 --><project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="de5b622335ccfbe24aaa11447edde3463350a074"/>
-  <!-- Information: platform/prebuilts/tools is tagged with M8064AAAAANLYA27300 --><project name="platform/prebuilts/tools" path="prebuilts/tools" revision="bbf7c256c4f5261c20599ec2f0d4f9316cb226bd"/>
-  <!-- Information: platform/system/bluetooth is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 --><project name="platform/system/bluetooth" path="system/bluetooth" revision="8d2fef3fa40e01380774f47fb5741c0ad4d5a93a"/>
-  <!-- Information: platform/system/extras is tagged with android-4.2.2_r1.2 --><project name="platform/system/extras" path="system/extras" revision="917e120f736f95292a40b6c7da9940d6369955e1"/>
-  <!-- Information: platform/system/media is tagged with android-4.2.2_r1.2 --><project name="platform/system/media" path="system/media" revision="555aac882ed63e70019c78ccc58032a5be0f58ec"/>
-  <!-- Information: platform/system/netd is tagged with android-4.2.2_r1.2 --><project name="platform/system/netd" path="system/netd" revision="d67cc366f769a84f56755b12d2c943113ec46f8c"/>
-  <!-- Information: platform/system/security is tagged with M8064AAAAANLYA27300 --><project name="platform/system/security" path="system/security" revision="cd8df62842b81c93022feabfacda8efd257e1754"/>
-  <!-- Information: platform/system/vold is tagged with android-4.2.2_r1.2 --><project name="platform/system/vold" path="system/vold" revision="3fd60b428202a0f5f324fccc67c0c0402b9131ba"/>
-  <!-- Information: platform/external/wpa_supplicant_8 is tagged with android-4.2.2_r1.2 --><project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="279731e733c27fd8dfb24d740c05f9ba1b4f8db0"/>
+  <!-- Information: platform/external/icu4c is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/icu4c" path="external/icu4c" revision="7c2b59472f5086b12884891153b07ab11726fb99"/>
+  <!-- Information: platform/external/iproute2 is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/iproute2" path="external/iproute2" revision="f145162f3afe38720a6b53d77d453a7b2365703f"/>
+  <!-- Information: platform/external/ipsec-tools is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="f24812ba17f2e7cc7fafdffaa21c6e54195f26c9"/>
+  <!-- Information: platform/external/iptables is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 -->
+  <project name="platform/external/iptables" path="external/iptables" revision="42ea6673b74e0ee9ad17f5462dc171fbe1491137"/>
+  <!-- Information: platform/external/jack is tagged with LA.UM.5.3-10410-89xx.0 -->
+  <project name="platform/external/jack" path="external/jack" revision="5ceb2025ac5d25ed48183ac2d3dac4691fe761fb"/>
+  <!-- Information: platform/external/jhead is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/jhead" path="external/jhead" revision="dc4fa4c9d4d0246b900c587cbeb6dabbbe813199"/>
+  <!-- Information: platform/external/jpeg is tagged with AU_LINUX_ANDROID_JB_2.5.1.04.02.02.064.036 -->
+  <project name="platform/external/jpeg" path="external/jpeg" revision="6f1b7fb8079197d4a4edc5d2e5c5546302197f33"/>
+  <!-- Information: platform/external/junit is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/junit" path="external/junit" revision="f4e7f982bdd63feb52e5d63e7a5605d5a7f8df36"/>
+  <!-- Information: platform/external/libgsm is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/libgsm" path="external/libgsm" revision="43b81e9497e8e467b95062f3effd6c7613c1d676"/>
+  <!-- Information: platform/external/liblzf is tagged with LA.UM.5.3-10410-89xx.0 -->
+  <project name="platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
+  <!-- Information: platform/external/libnl-headers is tagged with LNX.LA.2.7-05910-8064.0 -->
+  <project name="platform/external/libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658"/>
+  <!-- Information: platform/external/libogg is tagged with android-cts-5.1_r26 -->
+  <project name="platform/external/libogg" path="external/libogg" revision="ec0b24fb1468abe37be4164a6feb16568e036bde"/>
+  <!-- Information: platform/external/libpng is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/libpng" path="external/libpng" revision="deba48b32d593851724bdce88dd9b754c4722645"/>
+  <!-- Information: platform/external/libvpx is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/libvpx" path="external/libvpx" revision="b9c4e676b7be3cf3a9e45e06d71bf0ca92344a5b"/>
+  <!-- Information: platform/external/llvm is tagged with AU_LINUX_ANDROID_JB_VANILLA.04.02.02.060.061 -->
+  <project name="platform/external/llvm" path="external/llvm" revision="99e8132d3daedcebd061aacb0b08d1e1a6dab14c"/>
+  <!-- Information: platform/external/mdnsresponder is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="8d61c6ee30ea24755dfd111fb497c0533c0ff461"/>
+  <!-- Information: platform/external/mksh is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/mksh" path="external/mksh" revision="93bd42c789325fdd5f8c9ba8f000abd65281f241"/>
+  <!-- Information: platform/external/netcat is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/netcat" path="external/netcat" revision="e4e83f8147f92141cd02cc46cccca088c527ea2a"/>
+  <!-- Information: platform/external/openssl is tagged with M8974AAAAANLYA20110 -->
+  <project name="platform/external/openssl" path="external/openssl" revision="ba352abc91bee1349bbdcbababd38e954e2020c7"/>
+  <!-- Information: platform/external/ping is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/ping" path="external/ping" revision="351fb705d76aa9b12ea69b1ffe456c23029f1064"/>
+  <!-- Information: platform/external/ping6 is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/ping6" path="external/ping6" revision="d758e6092bbd733f608ea49ffdd00f0d421b4fc7"/>
+  <!-- Information: platform/external/protobuf is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/external/protobuf" path="external/protobuf" revision="db9ab02c090cdc5d2b31399867a4052351b8793d"/>
+  <!-- Information: platform/external/safe-iop is tagged with LA.UM.5.3-10410-89xx.0 -->
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
+  <!-- Information: platform/external/skia is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/external/skia" path="external/skia" revision="7cd90d4eecdba0f40a36945749d40df95d6d641b"/>
+  <!-- Information: platform/external/sonivox is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/sonivox" path="external/sonivox" revision="4a213147dbe60416aa26ebdba0f3c631b2e2b013"/>
+  <!-- Information: platform/external/speex is tagged with LNX.LA.3.7.1.1-09710-8x09.0 -->
+  <project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
+  <!-- Information: platform/external/sqlite is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 -->
+  <project name="platform/external/sqlite" path="external/sqlite" revision="42c3f41862cfff8d4539903e47a42cae97d13d37"/>
+  <!-- Information: platform/external/stlport is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/stlport" path="external/stlport" revision="30865cb901602ed078ff2ed534529d847b3b54b5"/>
+  <!-- Information: platform/external/strace is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/strace" path="external/strace" revision="7d2d23fd9b87c3a1fc61a51e6cb62923d952fb79"/>
+  <!-- Information: platform/external/tagsoup is tagged with LNX.LA.3.7.1.1-09710-8x09.0 -->
+  <project name="platform/external/tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
+  <!-- Information: platform/external/tinyxml is tagged with android-cts-4.1_r4 -->
+  <project name="platform/external/tinyxml" path="external/tinyxml" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e"/>
+  <!-- Information: platform/external/tinyxml2 is tagged with android-cts-5.1_r26 -->
+  <project name="platform/external/tinyxml2" path="external/tinyxml2" revision="c74b546f5af36968ffa56d7fd4529f4273b96f48"/>
+  <!-- Information: platform/external/tremolo is tagged with M8064AAAAANLYA13500 -->
+  <project name="platform/external/tremolo" path="external/tremolo" revision="3eec17965b3e2974e120e864b351a916f59835ba"/>
+  <!-- Information: platform/external/webp is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/webp" path="external/webp" revision="5a50414796e9a458925c7a13a15055d02406bf43"/>
+  <!-- Information: platform/external/webrtc is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/webrtc" path="external/webrtc" revision="cf20dbf9d2547baa8a0fb631f282109e7a58a6cc"/>
+  <!-- Information: platform/external/yaffs2 is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="9c64cac7542658f85417d651d8b9422e054d5e72"/>
+  <!-- Information: platform/external/zlib is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/external/zlib" path="external/zlib" revision="2d5094f0ebcb01fb9f11952d776945b090d89cf0"/>
+  <!-- Information: platform/libcore is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/libcore" path="libcore" revision="cc55503ccef76a3b443b1dba3a2f05049b2b34f4"/>
+  <!-- Information: platform/libnativehelper is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa"/>
+  <!-- Information: platform/ndk is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/ndk" path="ndk" revision="6d6807c76da40a9c9a27ea235c7518557c95219c"/>
+  <!-- Information: platform/prebuilts/misc is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/prebuilts/misc" path="prebuilts/misc" revision="f32b66a45d6d74a427bf4a159296b389a26c4d7f"/>
+  <!-- Information: platform/prebuilts/ndk is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="9e04eb2e30bc8d5707c57c2787111b3a5b365fa9"/>
+  <!-- Information: platform/prebuilts/sdk is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="de5b622335ccfbe24aaa11447edde3463350a074"/>
+  <!-- Information: platform/prebuilts/tools is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="bbf7c256c4f5261c20599ec2f0d4f9316cb226bd"/>
+  <!-- Information: platform/system/bluetooth is tagged with AU_LINUX_ANDROID_JB_2.5.3.04.02.02.054.066 -->
+  <project name="platform/system/bluetooth" path="system/bluetooth" revision="8d2fef3fa40e01380774f47fb5741c0ad4d5a93a"/>
+  <!-- Information: platform/system/extras is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/system/extras" path="system/extras" revision="917e120f736f95292a40b6c7da9940d6369955e1"/>
+  <!-- Information: platform/system/media is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/system/media" path="system/media" revision="555aac882ed63e70019c78ccc58032a5be0f58ec"/>
+  <!-- Information: platform/system/netd is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/system/netd" path="system/netd" revision="d67cc366f769a84f56755b12d2c943113ec46f8c"/>
+  <!-- Information: platform/system/security is tagged with M8064AAAAANLYA27300 -->
+  <project name="platform/system/security" path="system/security" revision="cd8df62842b81c93022feabfacda8efd257e1754"/>
+  <!-- Information: platform/system/vold is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/system/vold" path="system/vold" revision="3fd60b428202a0f5f324fccc67c0c0402b9131ba"/>
+  <!-- Information: platform/external/wpa_supplicant_8 is tagged with android-4.2.2_r1.2 -->
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="279731e733c27fd8dfb24d740c05f9ba1b4f8db0"/>
 
   <!-- micropi special things -->
   <project name="a20-b2g-kernel" path="kernel" remote="fire_repo" revision="498d0784f6a14c17bd3f11dd399a69349cb555c8"/>
   <project name="a20-b2g-system-core" path="system/core" remote="fire_repo" revision="b5e81d3c9e1dff98a9ce822b801cfee225cb6de2"/>
   <project name="a20-b2g-device-softwinner" path="device/softwinner" remote="fire_repo" revision="9475b2bd0021611ce6b52699b5b64ffd79a1cbd5"/>
-  <project name="a20-b2g-frameworks-native" path="frameworks/native" remote="fire_repo" revision="5cb81072e639a20a7104f1b677315c88bfc984f8"/>
+    <!-- <project name="a20-b2g-frameworks-native" path="frameworks/native" remote="fire_repo" revision="5cb81072e639a20a7104f1b677315c88bfc984f8"/> -->
   <project name="a20-b2g-lichee-tools" path="lichee_tools" remote="fire_repo" revision="048083cad654be15e5a00c26bd908d4ac643547a"/>
   <project name="a20-b2g-frameworks-base" path="frameworks/base" remote="fire_repo" revision="d2885c8d7a39c96220282a804b4289726ac4e3cb"/>
   <project name="a20-b2g-frameworks-av" path="frameworks/av" remote="fire_repo" revision="6b3629c8badd9c2863d593c3e758d98de381f970"/>
@@ -141,8 +222,5 @@
   <project name="a20-b2g-build" path="build" remote="fire_repo" revision="4951de06608c8d17f2021cfe967dbd2f90a60c5c">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-
-  <!-- at present , I don't know how to use below uboot instead of prebuilt uboot-->
-  <!--project remote="fire_repo" revision="master" path="u-boot" name="a20-b2g-uboot"/-->
 
 </manifest>
