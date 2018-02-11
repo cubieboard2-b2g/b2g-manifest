@@ -5,6 +5,7 @@
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
   <remote fetch="https://github.com/micropi/" name="fire_repo"/>
+  <remote fetch="https://github.com/cubieboard2-b2g" name="cubieboard2-b2g"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
 
   <default remote="caf" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>
@@ -207,8 +208,8 @@
   <!-- micropi special things -->
   <project name="a20-b2g-kernel" path="kernel" remote="fire_repo" revision="498d0784f6a14c17bd3f11dd399a69349cb555c8"/>
   <project name="a20-b2g-system-core" path="system/core" remote="fire_repo" revision="b5e81d3c9e1dff98a9ce822b801cfee225cb6de2"/>
-  <project name="a20-b2g-device-softwinner" path="device/softwinner" remote="fire_repo" revision="9475b2bd0021611ce6b52699b5b64ffd79a1cbd5"/>
-    <!-- <project name="a20-b2g-frameworks-native" path="frameworks/native" remote="fire_repo" revision="5cb81072e639a20a7104f1b677315c88bfc984f8"/> -->
+  <project name="device_allwinner" path="device/softwinner" remote="cubieboard2-b2g" revision="master"/>
+  <project name="a20-b2g-frameworks-native" path="frameworks/native" remote="fire_repo" revision="5cb81072e639a20a7104f1b677315c88bfc984f8"/>
   <project name="a20-b2g-lichee-tools" path="lichee_tools" remote="fire_repo" revision="048083cad654be15e5a00c26bd908d4ac643547a"/>
   <project name="a20-b2g-frameworks-base" path="frameworks/base" remote="fire_repo" revision="d2885c8d7a39c96220282a804b4289726ac4e3cb"/>
   <project name="a20-b2g-frameworks-av" path="frameworks/av" remote="fire_repo" revision="6b3629c8badd9c2863d593c3e758d98de381f970"/>
