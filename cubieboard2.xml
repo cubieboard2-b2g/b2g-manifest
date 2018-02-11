@@ -210,7 +210,7 @@
   <project name="a20-b2g-system-core" path="system/core" remote="fire_repo" revision="b5e81d3c9e1dff98a9ce822b801cfee225cb6de2"/>
   <project name="device_allwinner" path="device/softwinner" remote="cubieboard2-b2g" revision="master"/>
   <project name="a20-b2g-frameworks-native" path="frameworks/native" remote="fire_repo" revision="5cb81072e639a20a7104f1b677315c88bfc984f8"/>
-  <project name="a20-b2g-lichee-tools" path="lichee_tools" remote="fire_repo" revision="048083cad654be15e5a00c26bd908d4ac643547a"/>
+  <project name="a20-b2g-lichee-tools" path="lichee_tools" remote="cubieboard2-b2g" revision="master"/>
   <project name="a20-b2g-frameworks-base" path="frameworks/base" remote="fire_repo" revision="d2885c8d7a39c96220282a804b4289726ac4e3cb"/>
   <project name="a20-b2g-frameworks-av" path="frameworks/av" remote="fire_repo" revision="6b3629c8badd9c2863d593c3e758d98de381f970"/>
   <project name="a20-b2g-frameworks-opt" path="frameworks/opt" remote="fire_repo" revision="5b5f12e9c9b90eac8c729a79cbb1eba05fcf42fa"/>
